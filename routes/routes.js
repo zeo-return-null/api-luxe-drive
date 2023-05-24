@@ -8,7 +8,7 @@ const { getVinos, getVinosImg } = vinosController;
 
 router.route('/autos').get(getAutos);
 router.route('/autos/img/:id').get(getImg);
-router.route('vinos').get(getVinos);
+router.route('/vinos').get(getVinos);
 router.route('/vinos/img/:id').get(getVinosImg);
 
 module.exports = router;
