@@ -7,4 +7,4 @@ const vinosSchema = new mongoose.Schema({
 
 const Vinos = mongoose.model('vinos', vinosSchema);
 
-module.exports = Autos;
+module.exports = Vinos;
