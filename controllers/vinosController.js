@@ -7,7 +7,7 @@ const vinosController = {
     let vinos;
     let err = null;
     try {
-      vinos = await autosModel.find();
+      vinos = await vinosModel.find();
     } catch(err) {
       err = err;
       console.log(err);
